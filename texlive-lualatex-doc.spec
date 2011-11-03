@@ -1,3 +1,9 @@
+# revision 20419
+# category Package
+# catalog-ctan /info/luatex/lualatex-doc
+# catalog-date 2010-11-11 23:00:42 +0100
+# catalog-license fdl
+# catalog-version undef
 Name:		texlive-lualatex-doc
 Version:	20101111
 Release:	1
@@ -30,6 +36,7 @@ several sources, and offers links to others.
 %doc %{_texmfdistdir}/source/lualatex/lualatex-doc/Makefile
 %doc %{_texmfdistdir}/source/lualatex/lualatex-doc/lltxdoc.cls
 %doc %{_texmfdistdir}/source/lualatex/lualatex-doc/lualatex-doc.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -40,3 +47,5 @@ several sources, and offers links to others.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
