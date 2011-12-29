@@ -17,9 +17,6 @@ Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lualatex-doc.sour
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-doc <= 20110705-3
-Conflicts:	texlive-source <= 20110705-3
 
 %description
 The document is a map/guide to the world of LuaLaTeX. Coverage
@@ -36,7 +33,6 @@ several sources, and offers links to others.
 %doc %{_texmfdistdir}/source/lualatex/lualatex-doc/Makefile
 %doc %{_texmfdistdir}/source/lualatex/lualatex-doc/lltxdoc.cls
 %doc %{_texmfdistdir}/source/lualatex/lualatex-doc/lualatex-doc.tex
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -47,5 +43,3 @@ several sources, and offers links to others.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc source %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
