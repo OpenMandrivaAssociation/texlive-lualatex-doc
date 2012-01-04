@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-lualatex-doc
 Version:	20101111
-Release:	1
+Release:	2
 Summary:	A guide to use of LaTeX with LuaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/luatex/lualatex-doc
