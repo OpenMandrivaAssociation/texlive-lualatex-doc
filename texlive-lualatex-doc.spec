@@ -43,3 +43,17 @@ several sources, and offers links to others.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20101111-2
++ Revision: 753584
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20101111-1
++ Revision: 718923
+- texlive-lualatex-doc
+- texlive-lualatex-doc
+- texlive-lualatex-doc
+- texlive-lualatex-doc
+
