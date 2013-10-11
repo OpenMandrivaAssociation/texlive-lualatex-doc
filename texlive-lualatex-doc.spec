@@ -1,12 +1,12 @@
-# revision 20419
+# revision 30473
 # category Package
 # catalog-ctan /info/luatex/lualatex-doc
-# catalog-date 2010-11-11 23:00:42 +0100
+# catalog-date 2013-05-14 17:42:28 +0200
 # catalog-license fdl
 # catalog-version undef
 Name:		texlive-lualatex-doc
-Version:	20101111
-Release:	2
+Version:	20130514
+Release:	1
 Summary:	A guide to use of LaTeX with LuaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/luatex/lualatex-doc
@@ -43,17 +43,3 @@ several sources, and offers links to others.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20101111-2
-+ Revision: 753584
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20101111-1
-+ Revision: 718923
-- texlive-lualatex-doc
-- texlive-lualatex-doc
-- texlive-lualatex-doc
-- texlive-lualatex-doc
-
