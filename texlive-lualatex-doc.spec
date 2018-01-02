@@ -1,9 +1,3 @@
-# revision 30473
-# category Package
-# catalog-ctan /info/luatex/lualatex-doc
-# catalog-date 2013-05-14 17:42:28 +0200
-# catalog-license fdl
-# catalog-version undef
 Name:		texlive-lualatex-doc
 Version:	20170414
 Release:	1
@@ -26,13 +20,9 @@ several sources, and offers links to others.
 
 #-----------------------------------------------------------------------
 %files
-%doc %{_texmfdistdir}/doc/lualatex/lualatex-doc/News
-%doc %{_texmfdistdir}/doc/lualatex/lualatex-doc/README
-%doc %{_texmfdistdir}/doc/lualatex/lualatex-doc/lualatex-doc.pdf
+%doc %{_texmfdistdir}/doc/lualatex/lualatex-doc
 #- source
-%doc %{_texmfdistdir}/source/lualatex/lualatex-doc/Makefile
-%doc %{_texmfdistdir}/source/lualatex/lualatex-doc/lltxdoc.cls
-%doc %{_texmfdistdir}/source/lualatex/lualatex-doc/lualatex-doc.tex
+%doc %{_texmfdistdir}/source/lualatex/lualatex-doc
 
 #-----------------------------------------------------------------------
 %prep
