@@ -1,5 +1,5 @@
 Name:		texlive-lualatex-doc
-Version:	20170414
+Version:	20180303
 Release:	1
 Summary:	A guide to use of LaTeX with LuaTeX
 Group:		Publishing
