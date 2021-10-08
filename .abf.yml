@@ -1,3 +1,4 @@
 sources:
-  lualatex-doc.doc.tar.xz: c407de097cfc35e2c3bb0648391e7a19187c427c
-  lualatex-doc.source.tar.xz: 37a0af0c95bfd9f0f0062611078d78f834520065
+  lualatex-doc.tar.xz: 588ae3f079fcd4dd480396703b53e7f3ee50483f
+  lualatex-doc.doc.tar.xz: a11fa359500a2725dc9c9a29587e0c8b74474472
+  lualatex-doc.source.tar.xz: f4b6f5b0d05da3020a4e525a8bb0d12df213e4db
