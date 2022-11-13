@@ -1,13 +1,13 @@
 Name:		texlive-lualatex-doc
-Version:	20190228
+Version:	30473
 Release:	1
 Summary:	A guide to use of LaTeX with LuaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/luatex/lualatex-doc
 License:	FDL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lualatex-doc.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lualatex-doc.doc.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lualatex-doc.source.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lualatex-doc.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lualatex-doc.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lualatex-doc.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -26,7 +26,8 @@ several sources, and offers links to others.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1 -a2
+%setup -c -a1 -a2
+%autopatch -p1
 
 %build
 
