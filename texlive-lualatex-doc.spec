@@ -1,6 +1,6 @@
 Name:		texlive-lualatex-doc
 Version:	30473
-Release:	1
+Release:	2
 Summary:	A guide to use of LaTeX with LuaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/luatex/lualatex-doc
