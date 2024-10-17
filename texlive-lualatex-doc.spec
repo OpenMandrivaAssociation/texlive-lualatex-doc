@@ -3,7 +3,7 @@ Version:	30473
 Release:	2
 Summary:	A guide to use of LaTeX with LuaTeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/info/luatex/lualatex-doc
+URL:		https://www.ctan.org/tex-archive/info/luatex/lualatex-doc
 License:	FDL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lualatex-doc.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lualatex-doc.doc.r%{version}.tar.xz
